@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+.top {
+    background-color: #1F2937;
+    color:white;
+    padding:25px 300px 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color:#F9Faf8;
+    font-weight: bold;
+}
+
+.links, .hero-text-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight:900;
+    color:F9faf8
+}
+
+.snow-town {
+    width: 400px;
+    height: auto;
+}
