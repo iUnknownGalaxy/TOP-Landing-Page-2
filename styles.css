@@ -4,9 +4,10 @@ body {
 }
 
 .top {
-    background-color: #1F2937;
     color:white;
-    padding:25px 300px 100px 300px;
+    padding:25px 100px 100px 100px;
+    margin: 0 200px 0 200px;
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
 }
@@ -15,6 +16,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header {
+    margin-bottom: 12px;
 }
 
 .logo {
@@ -33,15 +38,26 @@ a {
     color: #E5E7EB;
 }
 
-
+button {
+    background-color:#3882f6;
+    color:white;
+    padding: 6px 30px 6px 30px;
+    font-size:medium;
+    border:none;
+    border-radius: 6px;
+}
 
 .hero-text {
     font-size: 48px;
     font-weight:900;
-    color:F9faf8
+    color:F9faf8;
 }
 
-.snow-town {
-    width: 400px;
+.man-in-desert {
+    max-width: 50%;
     height: auto;
+}
+
+.container {
+    padding:14px 32px 14px 0px;
 }
