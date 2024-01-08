@@ -3,7 +3,7 @@ body {
     margin:0;
 }
 
-.top {
+.top{
     color:white;
     padding:25px 350px 100px 350px;
     background-color: #1F2937;
@@ -11,10 +11,19 @@ body {
     flex-direction: column;
 }
 
-.header, .hero {
+.header, .hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 60px;
 }
 
 .header {
