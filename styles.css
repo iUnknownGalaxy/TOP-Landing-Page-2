@@ -5,7 +5,7 @@ body {
 
 .top {
     color:white;
-    padding:25px 300px 100px 300px;
+    padding:25px 350px 100px 350px;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -43,9 +43,10 @@ a {
 }
 
 .container {
-    padding:14px 32px 14px 0px;
+    padding:14px 50px 14px 0px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 14px;
 }
 
@@ -53,7 +54,7 @@ button {
     background-color:#3882f6;
     color:white;
     font-weight: bolder;
-    padding: 6px 30px 6px 30px;
+    padding: 8px 30px 8px 30px;
     font-size:medium;
     border:none;
     border-radius: 6px;
@@ -70,5 +71,39 @@ button {
     max-width: 50%;
     min-width: 100px;
     height: auto;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    height: auto;  
+    text-align: center; 
+    color:darkslategray;
+}
+
+.content img {
+    border:5px solid #3882f6;
+    border-radius: 20px;
+    height: 175px;
+    margin-bottom: 15px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.content {
+    margin-bottom: 150px;
 }
 
