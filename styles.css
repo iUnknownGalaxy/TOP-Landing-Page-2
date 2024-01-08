@@ -54,11 +54,12 @@ button {
     background-color:#3882f6;
     color:white;
     font-weight: bolder;
-    padding: 8px 30px 8px 30px;
+    padding: 10px 35px 10px 35px;
     font-size:medium;
     border:none;
     border-radius: 6px;
     width: fit-content;
+    font-size: 18px;
 }
 
 .hero-text {
@@ -105,5 +106,51 @@ button {
 
 .content {
     margin-bottom: 150px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    padding:150px 0 150px 0;
+}
+
+
+.author {
+    text-align: end;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    margin:100px 200px 100px 200px;
+    padding:60px;
+    border-radius: 10px;
+    gap:200px;
+    color:white;
+}
+
+.CTA-text {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.CTA-signup-text {
+    font-size: 20px;
+}
+
+.CTA-button {
+    border: 2px solid white;
 }
 
