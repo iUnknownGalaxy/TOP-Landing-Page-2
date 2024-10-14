@@ -1,5 +1,5 @@
 # TOP-Landing-Page-2
-Restarting TOP
+This is a landing page built using HTML and CSS, using a format given by <a href="https://www.theodinproject.com/lessons/foundations-landing-page">The Odin Project</a>
 
 
 Credits:
